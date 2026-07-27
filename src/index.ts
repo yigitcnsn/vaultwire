@@ -5,7 +5,7 @@ import { loadConfig } from "./config.js";
 import { ObsidianClient } from "./obsidianClient.js";
 import { registerTools } from "./tools/index.js";
 
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 
 async function main(): Promise<void> {
   let config;

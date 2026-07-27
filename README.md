@@ -30,7 +30,7 @@ npx vaultwire
 From a local clone:
 
 ```bash
-git clone <repo-url> vaultwire
+git clone https://github.com/yigitcnsn/vaultwire.git
 cd vaultwire
 npm install
 npm run build

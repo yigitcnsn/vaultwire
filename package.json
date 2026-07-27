@@ -1,10 +1,10 @@
 {
   "name": "vaultwire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that lets Claude read and write Obsidian notes via the Local REST API plugin",
   "type": "module",
   "bin": {
-    "vaultwire": "./dist/index.js"
+    "vaultwire": "dist/index.js"
   },
   "main": "./dist/index.js",
   "exports": {
@@ -37,6 +37,14 @@
   ],
   "author": "Ahmet Yiğitcan ŞEN",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yigitcnsn/vaultwire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yigitcnsn/vaultwire/issues"
+  },
+  "homepage": "https://github.com/yigitcnsn/vaultwire#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.0",
     "undici": "^7.16.0",
